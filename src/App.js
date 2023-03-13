@@ -12,23 +12,20 @@ function App() {
     <Router>
       <Navbar expand='lg' className='navbar navbar-dark bg-dark py-2' sticky='top'>
         <Container>
-          <Navbar.Brand id='devtyped' className='neon-color position-absolute top-0 mt-2'></Navbar.Brand>
+          <Navbar.Brand className='neon-color position-absolute top-0 mt-2'>hiiii</Navbar.Brand>
           <Navbar.Toggle aria-controls='navbarResponsive' style={{outline:'none',boxShadow:'none',border:'none',backgroundColor:'#000'}}/>
           <Navbar.Collapse id='navbarResponsive'>
             <Nav className='ms-auto'>
-              <Nav.Link as={Link} to='/web'>Web</Nav.Link>
-              <Nav.Link as={Link} to='/blogs'>Blogs</Nav.Link>
-              <Nav.Link as={Link} to='/hirethedevloper'>Hire Me</Nav.Link>
-              <Nav.Link as={Link} to='/wix-template'>Wix-Template</Nav.Link>
+              <Nav.Link as={Link} to='/wix'>Web</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
       </Navbar>
       
       <Routes>
-        <Route exact path='/devop' element={<SplashScreen/>}/>
+        <Route exact path="/wix-temp" element={<SplashScreen/>} />
       </Routes>
-    </Router>
+      </Router>
   );
 }
 
