@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/wix-temp/static/css/main.b82906e3.css",
-    "main.js": "/wix-temp/static/js/main.69e45102.js",
+    "main.css": "/wix-temp/static/css/main.42c5b3fa.css",
+    "main.js": "/wix-temp/static/js/main.0461452b.js",
+    "static/media/logo.svg": "/wix-temp/static/media/logo.f32c310b45323892ae1b34649d75ad62.svg",
     "index.html": "/wix-temp/index.html",
-    "main.b82906e3.css.map": "/wix-temp/static/css/main.b82906e3.css.map",
-    "main.69e45102.js.map": "/wix-temp/static/js/main.69e45102.js.map"
+    "main.42c5b3fa.css.map": "/wix-temp/static/css/main.42c5b3fa.css.map",
+    "main.0461452b.js.map": "/wix-temp/static/js/main.0461452b.js.map"
   },
   "entrypoints": [
-    "static/css/main.b82906e3.css",
-    "static/js/main.69e45102.js"
+    "static/css/main.42c5b3fa.css",
+    "static/js/main.0461452b.js"
   ]
 }
