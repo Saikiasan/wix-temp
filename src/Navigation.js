@@ -8,7 +8,7 @@ let LogoStyle = {
 
 const Navigation = () => {
   return (
-    <nav className='navbar navbar-dark navbar-expand-md bg-dark p-4 m-0 position-sticky top-0'>
+    <nav className='navbar navbar-dark navbar-expand-md bg-dark p-4 m-0'>
       <div className='container-fluid'>
         <a className='navbar-brand' href='/wix-temp'>
           <img src={Logo} alt='logo' style={LogoStyle}/>
